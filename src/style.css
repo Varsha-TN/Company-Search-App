@@ -1,0 +1,42 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+select,
+input,
+button {
+  padding: 1rem;
+  font-size: 1rem;
+}
+.search {
+  color: #fff;
+  padding: 8px;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  background-color: rgb(8, 168, 231);
+}
+
+.search input {
+  flex-grow: 1;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid rgb(8, 168, 231);
+}
+
+.item img {
+  max-width: 5rem;
+}
+
+.item span {
+  font-size: 1.5rem;
+  flex-grow: 1;
+}
